@@ -1,4 +1,4 @@
-ame: Deploy to Cloudflare Workers
+name: Deploy to Cloudflare Workers
 
 on: 
   workflow_dispatch:
@@ -27,4 +27,3 @@ jobs:
           EMOJI_LIST: ${{ secrets.EMOJI_LIST }}
           RANDOM_LEVEL: ${{ secrets.RANDOM_LEVEL }}
           RESTRICTED_CHATS: ${{ secrets.RESTRICTED_CHATS }}
-        
